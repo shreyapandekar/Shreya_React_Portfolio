@@ -1,0 +1,150 @@
+.navbar{
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vm;
+    
+    /* max-width: 75rem; */
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+ .logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+
+}
+.desktopMenu{
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 150px;
+}
+
+.desktopMenuListItem{
+    margin: 4rem;
+    cursor: pointer;
+    justify-content: center;
+
+}
+
+.desktopMenuListItem:hover{
+    color: rgb(10, 203, 237);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(10, 203, 237);
+}
+
+.desktopMenuBtn{
+    background: white ;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius:2rem ;
+}
+
+.desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.action{
+    color: rgb(10, 203, 237);
+    padding-bottom:0.5rem;
+    border-bottom: 3px solid rgb(10, 203, 237);;
+
+}
+.active{
+    color: rgb(10, 203, 237);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(10, 203, 237);;
+}
+
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+/* .navManu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40,40,40);
+    border-radius: 1rem;
+
+} */
+
+.listItem{
+    color: white;
+    padding:0.5rem 3rem;
+    margin: 0.25rem;
+    background: rgb(30,30,30);
+
+}
+.listItem:hover{
+    color: rgb(10, 203, 237);
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(10, 203, 237);
+
+}
+
+@media screen and (max-width:720px){
+    .mobMenu{
+        display: flex;
+        
+
+    }
+    .desktopMenu{
+        display: none;
+
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+    .navManu{
+        position: absolute;
+        top: 50rem;
+        background-color: red;
+        
+    }
+    .listItem{
+        /* margin: 0.05rem; */
+        text-align: center;
+        margin:  0.1px;
+    }
+    /* .menu{
+        position: absolute;
+        right: 0;
+        top: 5rem;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+    } */
+    
+    .menu{
+        
+        transition: .3s;
+        position: absolute;
+        right: 0;
+        top: 5rem;
+        width: 100%;
+        background-color: #000;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}

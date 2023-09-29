@@ -1,0 +1,106 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vm;
+    max-width: 75rem;
+    margin: -40px auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    top: -4rem;
+    right: 60px;
+    z-index: -1;
+    object-fit: cover;
+    margin-top: 100px;
+    height: 92vh;
+
+}
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 55px;
+    font-weight: 100;
+    margin-bottom: -15px;
+    
+}
+
+.introName{
+    color: rgb(10, 203, 237); 
+    font-size: 100px;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.btn{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+
+}
+
+@media screen and (max-width:1024px){
+    .bg{
+        right: -10vw;
+    }
+
+    .introContent{
+        font-size: 5vw;
+
+    }
+    .hello{
+        font-size: 6vw;
+
+    }
+}
+
+@media screen and (max-width:480px){
+    .bg{
+        right: -20vw;
+        margin-right: 80px;
+    }
+    .introName{
+        font-size: 40px;
+    }
+    .hello{
+        /* margin-bottom: px; */
+        font-size: 30px;
+        
+    }
+    
+    .introPara{
+        font-size: 12px;
+        width: 240px;
+        /* margin-top: 2px; */
+    }
+
+}
+
+/* echo "# Shreya_React_Portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shreyapandekar/Shreya_React_Portfolio.git
+git push -u origin main */
