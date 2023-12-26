@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Shreya_React_Portfolio/static/css/main.d5499900.css",
-    "main.js": "/Shreya_React_Portfolio/static/js/main.ed602565.js",
+    "main.css": "/Shreya_React_Portfolio/static/css/main.ab796458.css",
+    "main.js": "/Shreya_React_Portfolio/static/js/main.43b517ab.js",
+    "static/media/Placement-cell.png": "/Shreya_React_Portfolio/static/media/Placement-cell.2d7df0104b328c0061f7.png",
+    "static/media/campus.png": "/Shreya_React_Portfolio/static/media/campus.319dabeda760768c901f.png",
     "static/media/shreyapandekar.png": "/Shreya_React_Portfolio/static/media/shreyapandekar.169cb700ece6f20ea8bc.png",
+    "static/media/nodejs.png": "/Shreya_React_Portfolio/static/media/nodejs.1f4e9794e1b411eeda1e.png",
+    "static/media/Tic_Tac_Toe.png": "/Shreya_React_Portfolio/static/media/Tic_Tac_Toe.6fab411eab026898f75e.png",
+    "static/media/javascript.png": "/Shreya_React_Portfolio/static/media/javascript.47552f76be7ad9327f9e.png",
+    "static/media/Todo_list.png": "/Shreya_React_Portfolio/static/media/Todo_list.d232be06d3f2163bbd29.png",
     "static/media/react_icon.png": "/Shreya_React_Portfolio/static/media/react_icon.d2f229ebf0a532eee9bc.png",
     "index.html": "/Shreya_React_Portfolio/index.html",
-    "main.d5499900.css.map": "/Shreya_React_Portfolio/static/css/main.d5499900.css.map",
-    "main.ed602565.js.map": "/Shreya_React_Portfolio/static/js/main.ed602565.js.map"
+    "main.ab796458.css.map": "/Shreya_React_Portfolio/static/css/main.ab796458.css.map",
+    "main.43b517ab.js.map": "/Shreya_React_Portfolio/static/js/main.43b517ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5499900.css",
-    "static/js/main.ed602565.js"
+    "static/css/main.ab796458.css",
+    "static/js/main.43b517ab.js"
   ]
 }
